@@ -34,4 +34,4 @@ SniperBot is free, but we need money to continue development. please feel free t
 [Twitch Subscription](https://twitch.tv/subs/adsnipers)
 
 ## Changelog
-[Access Changelog](https://github.com/Adsnipers/TheSniperBot/blob/master/changelog.md)
+[Access Changelog](https://github.com/Adsnipers/TheSniperBot/blob/master/CHANGELOG.md)
