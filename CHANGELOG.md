@@ -1,3 +1,9 @@
+V2.0.1 - Discord Blacklist Moderation + AI Logs
+
+    + Admins can make the SniperBotOnTwitch account host a user
+    + Chat and AI logs save to a logfile for analysis of individual users messages
+    + Admins can now modify the Discord Blacklist using chat commands
+
 v2.0.0 - Discord + Twitch - AI Moderation
 
     + Training Chat AI to read all messages and return if the message should or shouldnt be deleted
