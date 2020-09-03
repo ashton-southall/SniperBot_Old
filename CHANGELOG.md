@@ -1,7 +1,20 @@
+v2.1.3 - AI Deletion specific to message type
+
+    + Allow for individual punishment depending on message type in the future
+
+v2.1.1 - Discord Embedded Messages
+
+    ~ All messages from the SniperBot Discord Bot are now sent as embedded messages to make SniperBot look more official
+
+V2.1.0 - Major updates to backend security, enabling possible open source release in the future
+
+    ~ major updates to backend security, enabling the ability to make SniperBot open-source in the future
+    ~ migrated to new git Repository, leaving all previous releases including all security issues in old repository allowing SniperBot to be made Open-Source in the      future
+
 V2.0.1 - Discord Blacklist Moderation + AI Logs
 
     + Admins can make the SniperBotOnTwitch account host a user
-    + Chat and AI logs save to a logfile for analysis of individual users messages
+    ~ Chat and AI logs save to a logfile for analysis of individual users messages
     + Admins can now modify the Discord Blacklist using chat commands
 
 v2.0.0 - Discord + Twitch - AI Moderation
