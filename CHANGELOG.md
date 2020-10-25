@@ -1,9 +1,12 @@
+v2.1.4.1 - Project Funding
+
+    + Support URLs now direct through adfoc.us to supply enough income to keep SniperBot running
+
 v2.1.4 - Bug and Confidence Detection fixes
 
     ~ Fixed bug where detected bot messages would not be deleted
     ~ Re-enabled minimum confidence to delete a message
     ~ Shortened support URLs in messages
-    + Support URLs now direct through adfoc.us to supply enough income to keep SniperBot running
 
 v2.1.3 - AI Deletion specific to message type
 
