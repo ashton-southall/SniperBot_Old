@@ -11,13 +11,13 @@ Once there open the Channel's chat and type the command `!sniperbot join` Sniper
 
 ### Adding SniperBot to Discord
 Adding SniperBot to your Discord server is even simpler than adding it to your twitch channel.
-Simply navigate to the [Authentication Page](https://discord.com/api/oauth2/authorize?client_id=640424281909624846&permissions=8&redirect_uri=http%3A%2F%2Fsniperbot.rf.gd&scope=bot) and follow the prompts, and you're all done. SniperBot is now watching your Discord Server and will delete any messages it deems innapropriate and will protect your server from blackisted users.
+Simply navigate to the [Authentication Page](http://adfoc.us/54699276427126) and follow the prompts, and you're all done. SniperBot is now watching your Discord Server and will delete any messages it deems innapropriate and will protect your server from blackisted users.
 
 ## Contact
 ### Discord
 Join our discord server to get in contact with all developers, this is the easiest and best way to contact us.
 
-[Join Our Discord](https://discord.com/invite/zBt3GRT)
+[Join Our Discord](http://adfoc.us/54699276390720)
 
 ## Email
 For buisness enquiries or other professional enquiries feel free to contact the creator of SniperBot (Adsnipers) via Email
