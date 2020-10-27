@@ -1,3 +1,8 @@
+[Coming Soon] - HUGE DB update
+
+    ~ Complete teitch bot rewrite
+    + all data is now stored in a Database allowing for epic future updates like trust scores
+
 v2.1.4.1 - Project Funding
 
     + Support URLs now direct through adfoc.us to supply enough income to keep SniperBot running
