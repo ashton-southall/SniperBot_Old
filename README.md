@@ -6,7 +6,7 @@ SniperBot is an Advanced Moderation Bot for Twitch and Discord that utilizes Art
 ## How-To
 ### Adding SniperBot To Twitch
 SniperBot has been designed with simplicity in mind, There are no complex menus, just set and forget.
-Adding SniperBot to your twitch channel is simple. navigate to the SniperBotOnTwitch twitch channel (alternatively any channel using SniperBot)
+Adding SniperBot to your twitch channel is simple. navigate to the [SniperBotOnTwitch](http://adfoc.us/54699276427127) twitch channel (alternatively any channel using SniperBot)
 Once there open the Channel's chat and type the command `!sniperbot join` SniperBot wil repspond to your message confirming that it is now in your channel. now navigate to your channel and add SniperBot as a moderator on your channel using `/mod SniperBotOnTwitch`. and you're all done. SniperBot is now watching your chat and will delete any messages it deems innaporpriate and protect your chat from blacklisted users.
 
 ### Adding SniperBot to Discord
