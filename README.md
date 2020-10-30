@@ -1,5 +1,7 @@
 # SniperBot
 
+[![CodeFactor](https://www.codefactor.io/repository/github/adsnipers/sniperbot_dev/badge?s=f82e8896a877a4b1acbc5ca2640a1e4707db9eb6)](https://www.codefactor.io/repository/github/adsnipers/sniperbot_dev)
+
 ## About SniperBot
 SniperBot is an Advanced Moderation Bot for Twitch and Discord that utilizes Artificial Intelligence to make Moderation Decisions. Add SniperBot to your Twitch Chanel or Discord Server today and experience next level moderation. SniperBot is a project currently run by Adsnipers, an Individual programmer and aspiring Twitch streamer.
 
