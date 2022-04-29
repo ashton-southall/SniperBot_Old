@@ -1,102 +1,173 @@
-[Coming Soon] - HUGE DB update
 
-    ~ Complete twitch bot rewrite
-    + all data is now stored in a Database allowing for epic future updates like trust scores
 
-v2.1.4.1 - Project Funding
+### v3.0.0 - Data Storage Update
 
-    + Support URLs now direct through adfoc.us to supply enough income to keep SniperBot running
+~ Complete Twitch bot rewrite
 
-v2.1.4 - Bug and Confidence Detection fixes
+~ Complete Discord bot rewrite
 
-    ~ Fixed bug where detected bot messages would not be deleted
-    ~ Re-enabled minimum confidence to delete a message
-    ~ Shortened support URLs in messages
+\+ all data is now stored in a Database allowing for future updates that require more advanced data storage
 
-v2.1.3 - AI Deletion specific to message type
+\+ Twitch Channel Options - Ability to set thresholds for AI moderation
 
-    + Allow for individual punishment depending on message type in the future
+\+ Discord Server Options - Ability to set thresholds for AI moderation
 
-v2.1.1 - Discord Embedded Messages
+~ Better error logging for easier and faster bug fixes
 
-    ~ All messages from the SniperBot Discord Bot are now sent as embedded messages to make SniperBot look more official
+~ Module functions - If an error occurs sniperbot will no longer crash, instead that one feature will be disabled until the error can be fixed
 
-V2.1.0 - Major updates to backend security, enabling possible open source release in the future
+* * *
 
-    ~ major updates to backend security, enabling the ability to make SniperBot open-source in the future
-    ~ migrated to new git Repository, leaving all previous releases including all security issues in old repository allowing SniperBot to be made Open-Source in the      future
+### v2.1.4.1 - Project Funding
 
-V2.0.1 - Discord Blacklist Moderation + AI Logs
+\+ Support URLs now direct through adfoc.us to supply enough income to keep SniperBot running
 
-    + Admins can make the SniperBotOnTwitch account host a user
-    ~ Chat and AI logs save to a logfile for analysis of individual users messages
-    + Admins can now modify the Discord Blacklist using chat commands
+* * *
 
-v2.0.0 - Discord + Twitch - AI Moderation
+### v2.1.4 - Bug and Confidence Detection fixes
 
-    + Training Chat AI to read all messages and return if the message should or shouldnt be deleted
-    + Twich bot now sends all messages to chat AI to be analysed
-    + Discord Bot now sends all messages to chat AI to be analysed
-    + Twitch Bot makes moderation actions based off of AI analysis
-    + Discord Bot makes moderation actions based off of AI analysis
-    + Twitch and Discord bot will only make moderation actions if AI confidence is above 90%
-    + Discord bot sends a message in the same channel a message was deleted from containing an explaination, deleted message and sender
-    + Discord bot AI ignores messages in NSFW channels
+~ Fixed bug where detected bot messages would not be deleted
 
-v1.4.0 - Discord - Extreme language detection
+~ Re-enabled minimum confidence to delete a message
 
-    + Discord Bot will now automatically delete messages containing extreme language
+~ Shortened support URLs in messages
 
-v1.3.0 - Twitch - !join and !leave commands
+* * *
 
-    + Command for anybody to add SniperBot to their channel
-    + Command for anybody to Remove SniperBot from their channel
+### v2.1.3 - AI Deletion specific to message type
 
-v1.2.3 - Discord - Automatic Blacklist Kick
+\+ Allow for individual punishment depending on message type in the
 
-    + The Discord Bot will now kick blacklisted users from servers when they attempt to chat
+future
 
-v1.2.2 - Twitch - Error catches and automatic timeout
+* * *
 
-    + SniperBot will now TimeOut blacklisted users instead of banning them, this is so if a user's blacklist status is removed they wont remain banned in channels they have been chatting in
-    + Error catching to prevent crashes caused by Bot not having correct permissions
+### v2.1.1 - Discord Embedded Messages
 
-v1.2.1 - Twitch - Chat-Based blacklist management for Administrators
+~ All messages from the SniperBot Discord Bot are now sent as embedded messages to make SniperBot look more official
 
-    + Ability for Administrators to manage SniperBot's blacklist via chat commands
+* * *
 
-v1.2.0 - Twitch - SniperBot chat lurking
+### V2.1.0 - Major updates to backend security, enabling possible open source release in the future
 
-    + SniperBot can now lurk in streamers channels to collect information about chatters (for use in a future addition)
+~ major updates to backend security, enabling the ability to make SniperBot open-source in the future
 
-v1.1.1 - Twitch - Bot simplification (placing focus on Moderation)
+~ migrated to new git Repository, leaving all previous releases including all security issues in old repository allowing SniperBot to be made Open-Source in the future should that decision need to be made
 
-    - Custom Channel Commands
+* * *
 
-v1.1.0 - Twitch - Blacklisted Users + Shoutout Command
+### V2.0.1 - Discord Blacklist Moderation + AI Logs
 
-    + SniperBot checks a list of blacklisted users and will timeout any user on that list who tries to chat
-    - !coinflip command due to errors
-    + !so command to be used by Moderators and the Broadcaster to give a chatter a little shoutout
-    + Fixed issue where Broadcasters could not ban chatters
+\+ Admins can make the SniperBotOnTwitch account host a user
 
-v1.0.4 - Discord - Mass Mention Blocking
+~ Chat and AI logs save to a logfile for analysis of individual users messages
 
-    + Custom mass-mention blocking
+\+ Admins can now modify the Discord Blacklist using chat commands
 
-v1.0.3 - Twitch - Banning
+* * *
 
-    + Ability for channel moderators and SniperBot administrators to ban users using !ban [username]
+### v2.0.0 - Discord + Twitch - AI Moderation
 
-v1.0.2 - Twitch - Chat Alerts
+\+ Training Chat AI to read all messages and return if the message should or shouldnt be deleted
 
-    + Basic chat alerts for significant events
-    - !refresh command
+\+ Twich bot now sends all messages to chat AI to be analysed
 
-v1.0.1 - Twitch - Added Developer Commands
+\+ Discord Bot now sends all messages to chat AI to be analysed
 
-    + Added a number of Developer Commands to help with bug testing
+\+ Twitch Bot makes moderation actions based off of AI analysis
+
+\+ Discord Bot makes moderation actions based off of AI analysis
+
+\+ Twitch and Discord bot will only make moderation actions if AI confidence is above 90%
+
+\+ Discord bot sends a message in the same channel a message was deleted from containing an explaination, deleted message and sender
+
+\+ Discord bot AI ignores messages in NSFW channels
+
+* * *
+
+### v1.4.0 - Discord - Extreme language detection
+
+\+ Discord Bot will now automatically delete messages containing extreme language
+
+* * *
+
+### v1.3.0 - Twitch - !join and !leave commands
+
+\+ Command for anybody to add SniperBot to their channel
+
+\+ Command for anybody to Remove SniperBot from their channel
+
+* * *
+
+### v1.2.3 - Discord - Automatic Blacklist Kick
+
+\+ The Discord Bot will now kick blacklisted users from servers when they attempt to chat
+
+* * *
+
+### v1.2.2 - Twitch - Error catches and automatic timeout
+
+\+ SniperBot will now TimeOut blacklisted users instead of banning them, this is so if a user's blacklist status is removed they wont remain banned in channels they have been chatting in
+
+\+ Error catching to prevent crashes caused by Bot not having correct permissions
+
+* * *
+
+### v1.2.1 - Twitch - Chat-Based blacklist management for Administrators
+
+\+ Ability for Administrators to manage SniperBot's blacklist via chat commands
+
+* * *
+
+### v1.2.0 - Twitch - SniperBot chat lurking
+
+\+ SniperBot can now lurk in streamers channels to collect information about chatters (for use in a future addition)
+
+* * *
+
+### v1.1.1 - Twitch - Bot simplification (placing focus on Moderation)
+
+\- Custom Channel Commands
+
+* * *
+
+### v1.1.0 - Twitch - Blacklisted Users + Shoutout Command
+
+\+ SniperBot checks a list of blacklisted users and will timeout any user on that list who tries to chat
+
+\- !coinflip command due to errors
+
+\+ !so command to be used by Moderators and the Broadcaster to give a chatter a little shoutout
+
+\+ Fixed issue where Broadcasters could not ban chatters
+
+* * *
+
+### v1.0.4 - Discord - Mass Mention Blocking
+
+\+ Custom mass-mention blocking
+
+* * *
+
+### v1.0.3 - Twitch - Banning
+
+\+ Ability for channel moderators and SniperBot administrators to ban users using !ban \[username\]
+
+* * *
+
+### v1.0.2 - Twitch - Chat Alerts
+
+\+ Basic chat alerts for significant events
+
+\- !refresh command
+
+* * *
+
+### v1.0.1 - Twitch - Added Developer Commands
+
+\+ Added a number of Developer Commands to help with bug testing
 
 v1.0.0 - The Creation Of SniperBot
 
-    + Created SniperBot
+\+ Created SniperBot
