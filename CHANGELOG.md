@@ -1,6 +1,6 @@
 [Coming Soon] - HUGE DB update
 
-    ~ Complete teitch bot rewrite
+    ~ Complete twitch bot rewrite
     + all data is now stored in a Database allowing for epic future updates like trust scores
 
 v2.1.4.1 - Project Funding
